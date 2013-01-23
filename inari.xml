@@ -13,6 +13,8 @@
           fetch="git://android.git.linaro.org/" />
   <remote name="mozillaorg"
           fetch="https://git.mozilla.org/releases" />
+  <remote name="marco"
+          fetch="https://github.com/marcofreda527/" />
   <default revision="ics_chocolate_rb4.2"
            remote="caf"
            sync-j="4" />
@@ -26,7 +28,7 @@
   <project path="gecko" name="gecko.git" remote="mozillaorg" revision="master" />
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
-  <project path="librecovery" name="librecovery" remote="b2g" revision="master" />
+  <project path="librecovery" name="librecovery" remote="marco" revision="master" />
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
 
   <!-- Stock Android things -->
@@ -107,7 +109,7 @@
   <project path="device/qcom/msm7627a" name="platform/vendor/qcom/msm7627a" />
   <project path="device/qcom/otoro" name="android-device-otoro" remote="b2g" revision="master" />
   <project path="device/qcom/unagi" name="android-device-unagi" remote="b2g" revision="master" />
-  <project path="device/qcom/inari" name="android-device-inari" remote="b2g" revision="master" />
+  <project path="device/qcom/inari" name="android-device-inari" remote="marco" revision="master" />
   <project path="kernel" name="codeaurora_kernel_msm" remote="b2g" revision="master" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="b2g" />
